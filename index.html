@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Доп 1</title>
+  </head>
+  <body>
+    <form class="f-1">
+      <p>
+        Фамилия:
+        <input class="im" id="name1" type="text" value="Иванов" />
+      </p>
+      <p>
+        Имя:
+        <input class="im" id="name2" type="text" value="Петр" />
+      </p>
+      <p>
+        Отчество:
+        <input class="im" id="name3" type="text" value="Сергеевич" />
+      </p>
+    </form>
+
+    <form class="f-2">
+      <p>Ваш пол:</p>
+      <input name="r1" type="radio" value="Мужской" checked /> Мужской
+      <br />
+      <input name="r1" type="radio" value="Женский" /> Женский
+      <br />
+    </form>
+
+    <form class="f-3">
+      <div>
+        <p>Семейное положение:</p>
+        <input type="radio" name="r2" value="Холост(не замужем)" checked />
+        Холост(не замужем)<br />
+        <input type="radio" name="r2" value="Женат(замужем)" />
+        Женат(замужем)<br />
+        <input type="radio" name="r2" value="Вдовец(вдова)" />
+        Вдовец(вдова)<br />
+        <input type="radio" name="r2" value="Разведён(а)" /> Разведён(а)<br />
+      </div>
+    </form>
+
+    <form class="f-4">
+      <p>
+        Образование:
+        <select id="select">
+          <option value="Высшее">Высшее</option>
+          <option value="Среднее">Среднее</option>
+        </select>
+      </p>
+    </form>
+
+    <form class="f-5">
+      <p>Хобби:</p>
+      <select size="7" multiple id="select1">
+        <option value="Охота">Охота</option>
+        <option value="Рыбалка">Рыбалка</option>
+        <option value="Спорт">Спорт</option>
+        <option value="Компьютеры" selected>Компьютеры</option>
+        <option value="TV и Video">TV и Video</option>
+        <option value="Книги">Книги</option>
+        <option value="Нет">Нет</option>
+      </select>
+    </form>
+
+    <form class="f-6">
+      <p>
+        <input type="checkbox" name="" id="ch1" value="Да" checked /> Наличие
+        компьютера
+      </p>
+    </form>
+
+    <form class="f-7">
+      <textarea rows="5" cols="25" name="" id="myTextarea"></textarea>
+    </form>
+
+    <form class="f-8">
+      <p>
+        <button type="button" class="b-5">Отправить</button>
+        <button type="submit">Сброс</button>
+      </p>
+    </form>
+
+    <table id="table"></table>
+
+    <script src="script1.js"></script>
+  </body>
+</html>
